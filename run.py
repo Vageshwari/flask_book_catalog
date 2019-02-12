@@ -2,7 +2,7 @@ from app import create_app, db
 from app.auth.models import User
 from sqlalchemy import exc
 
-"""
+
 #This is for creating all database objects using dev confiuration
 flask_app = create_app('dev')
 with flask_app.app_context():
@@ -18,4 +18,4 @@ if (__name__ == '__main__'):
     flask_app = create_app('dev')
     flask_app.run()
 
-
+"""
